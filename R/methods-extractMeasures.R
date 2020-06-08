@@ -18,7 +18,7 @@
 
 setGeneric("extractMeasures", function(object, plot) standardGeneric("extractMeasures"))
 
-@rdname extractMeasures-method
+#' @rdname extractMeasures-method
 setMethod(f = "extractMeasures", signature = c("SM.dlm", "logical"),
          definition = .SM.dlm.extractMeasures)
 
